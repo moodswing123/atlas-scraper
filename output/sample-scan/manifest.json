@@ -1,7 +1,7 @@
 {
   "jobId": "sample-scan",
   "target": "https://example.org",
-  "createdAt": "2026-11-22T16:20:05.818Z",
+  "createdAt": "2026-11-22T16:20:23.196Z",
   "files": {
     "README.txt": "3981972f9628bd4fcd82b113d74eb721fcb0cb0f27e51e20509208fef39f9291",
     "data/errors.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
