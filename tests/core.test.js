@@ -16,12 +16,13 @@ test('renders branded panels and escapes untrusted HTML values',()=>{
  assert.match(panel,/<b>◆ ATLAS SCRAPER<\/b>/);assert.match(panel,/<i>PUBLIC WEBSITE INTELLIGENCE<\/i>/);assert.match(panel,/&lt;TITLE&gt;/);assert.ok(keyValue('Target','<script>').includes('&lt;script&gt;'));assert.equal(escapeHtml(`a&b"c'`),'a&amp;b&quot;c&#39;');
 });
 test('home overview uses readable labeled account rows',()=>{
- const text=homeMessage({userId:'42',scans:3,pageLimit:20,depthLimit:2});assert.match(text,/<b>ACCOUNT OVERVIEW<\/b>/);assert.match(text,/Telegram ID/);assert.match(text,/Scans saved/);assert.match(text,/Pages per scan/);assert.match(text,/Maximum depth/);
+ const text=homeMessage({userId:'42',scans:3,pageLimit:20,depthLimit:2});assert.match(text,/<b>ACCOUNT OVERVIEW<\/b>/);assert.match(text,/Telegram ID/);assert.match(text,/Scans saved/);assert.match(text,/Pages per scan/);assert.match(text,/Maximum depth/);assert.ok(text.length<700);assert.doesNotMatch(text,/ordinary unauthenticated/);
 });
 test('inline keyboards preserve button groups and use supported style values',()=>{
  const keyboard=buildKeyboard([[['Start scan','atlas:run:abc123'],['Cancel','atlas:cancel:abc123']],[['Download ZIP','atlas:zip:abc123']]]).inline_keyboard;
  assert.equal(keyboard.length,2);assert.equal(keyboard[0].length,2);assert.equal(keyboard[0][0].style,'success');assert.equal(keyboard[0][1].style,'danger');assert.equal(keyboard[1][0].style,'success');
  for(const row of keyboard)for(const button of row){assert.ok(['primary','success','danger'].includes(button.style));if(button.callback_data)assert.ok(Buffer.byteLength(button.callback_data,'utf8')<=64);}
+ assert.equal(buildKeyboard([[['⌕  START SCAN','atlas:scan']]]).inline_keyboard[0][0].style,'success');
 });
 
 test('rejects unsupported schemes, credentials, localhost, private IPv4 and IPv6', async()=>{

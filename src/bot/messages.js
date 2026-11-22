@@ -23,7 +23,7 @@ export function homeMessage({ userId, scans, pageLimit, depthLimit }) {
     keyValue('Pages per scan', pageLimit, '⌕'),
     keyValue('Maximum depth', depthLimit, '↳')
   ].join('\n');
-  const intro = '<i>Public-site research, made clear.</i>\n\nSubmit a public URL, choose a bounded scan, and receive an offline-ready report. Only information available through ordinary unauthenticated web requests is collected.';
-  const action = 'Choose an action below. Scans follow robots.txt and never submit forms or bypass access controls.';
+  const intro = '<i>Research public websites. Get clear, offline-ready reports.</i>';
+  const action = 'Send a public URL to begin. Robots.txt is respected; no logins or forms.';
   return renderPanel('ACCOUNT OVERVIEW', `${overview}\n\n${divider}\n${intro}\n\n${action}`, { subtitle: 'WEB INTELLIGENCE CONSOLE' });
 }
