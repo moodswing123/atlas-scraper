@@ -86,7 +86,7 @@ npm test
 npm run lint
 ```
 
-`npm install` reported five moderate dependency audit findings in the transitive archive/zip dependency tree at build time. Review with `npm audit`; update dependencies only after testing archive generation. No security claim should be interpreted as a guarantee against every target network edge case.
+`npm audit --omit=dev` reports zero vulnerabilities for the checked dependency lockfile at release time. Re-run the audit when upgrading dependencies. No security claim should be interpreted as a guarantee against every target network edge case.
 
 ## Troubleshooting
 

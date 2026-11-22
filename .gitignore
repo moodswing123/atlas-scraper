@@ -7,4 +7,5 @@ data/*
 output/*
 !output/sample-report.html
 !output/sample-scan/
+!output/sample-scan.zip
 *.log
