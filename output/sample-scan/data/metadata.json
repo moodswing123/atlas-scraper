@@ -1,0 +1,14 @@
+[
+  {
+    "url": "https://example.org/",
+    "title": "Example Domain",
+    "description": "A demonstration domain for documentation examples.",
+    "canonical": "https://example.org/",
+    "meta": {
+      "description": "A demonstration domain for documentation examples.",
+      "og:title": "Example Domain"
+    },
+    "jsonLd": [],
+    "robots": null
+  }
+]

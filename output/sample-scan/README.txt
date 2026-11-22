@@ -1,0 +1,1 @@
+ATLAS SCRAPER export. index.html is an offline-friendly report. data/ contains JSON; tables/ contains CSV. Only unauthenticated public HTTP data is included.

@@ -1,0 +1,23 @@
+{
+  "jobId": "sample-scan",
+  "target": "https://example.org",
+  "createdAt": "2026-11-22T16:17:01.236Z",
+  "files": {
+    "README.txt": "3981972f9628bd4fcd82b113d74eb721fcb0cb0f27e51e20509208fef39f9291",
+    "data/errors.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "data/headers.json": "dd29ce8646d8d2459b4df8527547dfb582fe78ca7de31b5da03440e00f37360f",
+    "data/images.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "data/links.json": "69cc56ae328648230941d7a26b45538a07d27d9bc4a300db55fb333b87defcf7",
+    "data/metadata.json": "c842ed4be2948f6d8391b70e6ada5857bab2307e8e98eb2dba822f7ed0a009b0",
+    "data/pages.json": "47b8b090db3d502129f8507c357eb3930416ee293b294974874cffcd68e66d08",
+    "data/resources.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "data/seo.json": "d547b0642aed86762850951b493768ee5d69390c630b16d41119873daf367e09",
+    "data/summary.json": "1870ea77ca99be3306ab319d1fb96041e5a7bfcd16b2065514c3682b87537ff3",
+    "data/technical.json": "231bc8a784099f37a6390777b7bd526c5e8953e99ebd09a9234adfa2556707ee",
+    "index.html": "8945757ffd2504c4585a20d4a01a540b0211894cafb6788c037128f59659f197",
+    "logs/crawl.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tables/assets.csv": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tables/links.csv": "8061f8664578b8caafb066a299f12892e9a06c11afea2c881373f2c1f0cf4658",
+    "tables/pages.csv": "6a14480a49e886bb9048094b7ab7d7aeab5471ae66ed7e15940bd24fc8d2578f"
+  }
+}

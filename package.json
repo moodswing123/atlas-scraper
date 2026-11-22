@@ -1,0 +1,21 @@
+{
+  "name": "atlas-scraper-telegram-bot",
+  "version": "1.0.0",
+  "description": "A responsible public-site crawler and Telegram bot with offline exports.",
+  "type": "module",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test",
+    "lint": "node --check src/index.js && node --check src/scraper/crawler.js && node --check src/bot/bot.js && node --check src/exports/report.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.7",
+    "ipaddr.js": "^2.2.0",
+    "yazl": "^3.3.1"
+  }
+}

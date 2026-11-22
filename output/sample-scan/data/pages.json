@@ -1,0 +1,55 @@
+[
+  {
+    "url": "https://example.org/",
+    "finalUrl": "https://example.org/",
+    "status": 200,
+    "depth": 0,
+    "contentType": "text/html; charset=utf-8",
+    "responseTimeMs": 84,
+    "title": "Example Domain",
+    "description": "A demonstration domain for documentation examples.",
+    "language": "en",
+    "canonical": "https://example.org/",
+    "headings": {
+      "h1": [
+        "Example Domain"
+      ],
+      "h2": [],
+      "h3": [],
+      "h4": [],
+      "h5": [],
+      "h6": []
+    },
+    "text": "Example Domain This domain is for use in illustrative examples in documents. You may use this domain in literature without prior coordination or asking for permission.",
+    "paragraphs": [
+      "This domain is for use in illustrative examples in documents.",
+      "You may use this domain in literature without prior coordination or asking for permission."
+    ],
+    "meta": {
+      "description": "A demonstration domain for documentation examples.",
+      "og:title": "Example Domain"
+    },
+    "openGraph": {
+      "og:title": "Example Domain"
+    },
+    "jsonLd": [],
+    "links": [
+      {
+        "url": "https://www.iana.org/domains/example",
+        "text": "More information...",
+        "rel": "",
+        "kind": "external"
+      }
+    ],
+    "images": [],
+    "resources": [],
+    "forms": [],
+    "robots": null,
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "server": "example"
+    },
+    "textHash": "sample-hash",
+    "redirects": []
+  }
+]

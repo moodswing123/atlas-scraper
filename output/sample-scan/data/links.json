@@ -1,0 +1,9 @@
+[
+  {
+    "source": "https://example.org/",
+    "url": "https://www.iana.org/domains/example",
+    "text": "More information...",
+    "rel": "",
+    "kind": "external"
+  }
+]

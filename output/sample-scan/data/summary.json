@@ -1,0 +1,13 @@
+{
+  "jobId": "sample-scan",
+  "target": "https://example.org",
+  "startedAt": "2026-11-22T15:00:00.000Z",
+  "finishedAt": "2026-11-22T15:00:01.250Z",
+  "durationMs": 1250,
+  "requestCount": 2,
+  "pages": 1,
+  "links": 1,
+  "images": 0,
+  "resources": 0,
+  "errors": 0
+}
